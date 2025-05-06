@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Merch Shop - Kontakt</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="https://external-preview.redd.it/y6yxM1Gt1yjRqTqj_Oge25q721iPW5UFuVUdYnfJfJY.jpg?auto=webp&s=2bc8666ecb9b3ecf891d9afb0ae7e98bc0250bc7" alt="F1 Merch Shop Logo">
+                <h1>F1 Merch Shop</h1>
+            </div>
+            <nav>
+                <a href="index.html">Startseite</a>
+                <a href="produkte.html">Produkte</a>
+                <a href="kontakt.html" class="active">Kontakt</a>
+            </nav>
+    </header>
+    <main>
+      <br>
+        <div class="flex flex-wrap margin-top" style="gap: 2rem;">
+            <div style="flex: 1; min-width: 300px;">
+                <h2 class="section-title">Unsere Kontaktdaten</h2>
+                
+                <div class="kontakt-info" style="background-color: white; padding: 2rem; border-radius: 8px; box-shadow: var(--shadow);">
+                    <div class="kontakt-item" style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                        <div style="width: 50px; height: 50px; background-color: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                          <img src="https://cdn-icons-png.flaticon.com/512/2947/2947981.png" alt="Telefon" style="width: 30px; height: 30px;">
+                        </div>                        
+                        <div>
+                            <h3>Adresse</h3>
+                            <p>Formeleinsstrasse 1<br>12345 Formeleinsstadt<br>Schweiz</p>
+                        </div>
+                    </div>
+                    
+                    <div class="kontakt-item" style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                        <div style="width: 50px; height: 50px; background-color: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                          <img src="https://cdn-icons-png.flaticon.com/512/201/201128.png" alt="Haus" style="width: 35px; height: 35px;">                        
+                        </div>
+                        <div>
+                            <h3>Telefon</h3>
+                            <p>+41 123 456</p>
+                            <p>Mo - Fr: 8:00 - 17:00 Uhr</p>
+                        </div>
+                    </div>
+                    
+                    <div class="kontakt-item" style="display: flex; align-items: center;">
+                        <div style="width: 50px; height: 50px; background-color: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem;">
+                          <img src="https://png.pngtree.com/png-clipart/20191120/original/pngtree-email-icon-png-image_5065641.jpg" alt="Email" style="width: 38px; height: 38px;">
+                        </div>
+                        <div>
+                            <h3>E-Mail</h3>
+                            <p>support@f1MerchShop.com</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            
+            <div style="flex: 1; min-width: 300px;">
+                <h2 class="section-title">Schreib uns eine Nachricht</h2>
+                
+                <form class="kontaktformular">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-Mail *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="betreff">Betreff *</label>
+                        <select id="betreff" name="betreff" required>
+                            <option value="">Bitte wählen</option>
+                            <option value="produkt">Produktanfrage</option>
+                            <option value="bestellung">Frage zu meiner Bestellung</option>
+                            <option value="rückgabe">Rückgabe/Umtausch</option>
+                            <option value="lieferung">Lieferung</option>
+                            <option value="zahlung">Zahlungsmethoden</option>
+                            <option value="sonstiges">Sonstiges</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="nachricht">Deine Nachricht *</label>
+                        <textarea id="nachricht" name="nachricht" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="cta-button">Nachricht senden</button>
+                </form>
+            </div>
+        </div>
+        <br>
+        <section class="margin-top">
+          <h2 class="section-title">Unser Team</h2>
+          
+          <div class="grid">
+              <div class="produkt">
+                  <img src="https://st5.depositphotos.com/81334134/76950/v/450/depositphotos_769508200-stock-illustration-man-profile-vector-professional-male.jpg" alt="Foto von Lukas Weber">
+                  <div class="produkt-info">
+                      <h3>Lukas Weber</h3>
+                      <div class="kategorie-tab">Geschäftsführer</div>
+                      <p class="description">Verantwortlich für die strategische Ausrichtung und Gesamtleitung des F1 Merch Shops.</p>
+                      <p><strong>Email:</strong> l.weber@f1MerchShop.com</p>
+                      <p><strong>Tel:</strong> +41 123 456 101</p>
+                  </div>
+              </div>
+              
+              <div class="produkt">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjQzBJy92bbBXBWmsL7qHdaHuaxYyK0Ch3aqtFtQJJO9IDDa6o7IzyD-oAxOYXo6LG7u4&usqp=CAU" alt="Foto von Sarah Müller">
+                  <div class="produkt-info">
+                      <h3>Sarah Müller</h3>
+                      <div class="kategorie-tab">Kundenservice-Leiterin</div>
+                      <p class="description">Zuständig für alle Kundenanfragen und die Koordination des Support-Teams.</p>
+                      <p><strong>Email:</strong> s.mueller@f1MerchShop.com</p>
+                      <p><strong>Tel:</strong> +41 123 456 102</p>
+                  </div>
+              </div>
+              
+              <div class="produkt">
+                  <img src="https://st5.depositphotos.com/81334134/76950/v/450/depositphotos_769508200-stock-illustration-man-profile-vector-professional-male.jpg" alt="Foto von Marco Berger">
+                  <div class="produkt-info">
+                      <h3>Marco Berger</h3>
+                      <div class="kategorie-tab">Logistik-Manager</div>
+                      <p class="description">Verantwortlich für alle Lager- und Versandprozesse sowie die Lieferkettenoptimierung.</p>
+                      <p><strong>Email:</strong> m.berger@f1MerchShop.com</p>
+                      <p><strong>Tel:</strong> +41 123 456 103</p>
+                  </div>
+              </div>
+              
+              <div class="produkt">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjQzBJy92bbBXBWmsL7qHdaHuaxYyK0Ch3aqtFtQJJO9IDDa6o7IzyD-oAxOYXo6LG7u4&usqp=CAU" alt="Foto von Nina Schmid">
+                  <div class="produkt-info">
+                      <h3>Nina Schmid</h3>
+                      <div class="kategorie-tab">Produktmanagerin</div>
+                      <p class="description">Zuständig für die Produktauswahl, Qualitätskontrolle und Zusammenarbeit mit F1-Teams.</p>
+                      <p><strong>Email:</strong> n.schmid@f1MerchShop.com</p>
+                      <p><strong>Tel:</strong> +41 123 456 104</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+        <section class="margin-top">
+            <h2 class="section-title">Häufig gestellte Fragen</h2>
+            
+            <div class="faq-container" style="background-color: white; border-radius: 8px; box-shadow: var(--shadow); padding: 2rem;">
+                <div class="faq-item" style="margin-bottom: 1.5rem; border-bottom: 1px solid #eee; padding-bottom: 1.5rem;">
+                    <h3 style="margin-bottom: 0.5rem; color: var(--primary-color);">Wie lange dauert die Lieferung?</h3>
+                    <p>Die Standardlieferzeit für Bestellungen innerhalb Deutschlands beträgt 2-4 Werktage. Bei internationalen Bestellungen kann die Lieferzeit je nach Zielland variieren, beträgt jedoch in der Regel 5-10 Werktage.</p>
+                </div>
+                
+                <div class="faq-item" style="margin-bottom: 1.5rem; border-bottom: 1px solid #eee; padding-bottom: 1.5rem;">
+                    <h3 style="margin-bottom: 0.5rem; color: var(--primary-color);">Kann ich meine Bestellung zurückgeben?</h3>
+                    <p>Ja, du kannst deine Bestellung innerhalb von 14 Tagen nach Erhalt zurückgeben. Die Artikel müssen ungetragen, unbeschädigt und mit allen Original-Etiketten versehen sein. Bitte kontaktiere uns vor der Rücksendung.</p>
+                </div>
+                
+                <div class="faq-item" style="margin-bottom: 1.5rem; border-bottom: 1px solid #eee; padding-bottom: 1.5rem;">
+                    <h3 style="margin-bottom: 0.5rem; color: var(--primary-color);">Sind die Produkte offiziell lizenziert?</h3>
+                    <p>Ja, alle unsere Produkte sind offizielle, lizenzierte Merchandise-Artikel der Formel 1, der Teams und der FIA. Wir garantieren die Echtheit aller angebotenen Produkte.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 style="margin-bottom: 0.5rem; color: var(--primary-color);">Welche Zahlungsmethoden akzeptiert ihr?</h3>
+                    <p>Wir akzeptieren verschiedene Zahlungsmethoden, darunter Kreditkarten (Visa, Mastercard), Twint, Sofortüberweisung und Kauf auf Rechnung für Stammkunden.</p>
+                </div>
+            </div>
+        </section>
+        <br>

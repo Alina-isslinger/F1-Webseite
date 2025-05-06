@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Merch Shop - Produktdetails</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="https://external-preview.redd.it/y6yxM1Gt1yjRqTqj_Oge25q721iPW5UFuVUdYnfJfJY.jpg?auto=webp&s=2bc8666ecb9b3ecf891d9afb0ae7e98bc0250bc7">
+                <h1>F1 Merch Shop</h1>
+            </div>
+            
+            <nav>
+                <a href="index.html">Startseite</a>
+                <a href="produkte.html">Produkte</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="detail">
+            <div class="detail-image">
+                <img src="https://m.media-amazon.com/images/I/71GFdrxyagL._AC_UF894,1000_QL80_.jpg">
+            </div>
+            <div class="detail-info">
+                <h2>Red Bull RB19 Modellauto</h2>
+                <span class="team-tag">Red Bull Racing</span>
+                <p class="price">€89,99</p>
+                <div class="description">
+                    <p>Detailgetreues Modellauto des Red Bull RB19 – dem Weltmeisterauto der Formel-1-Saison 2023. Dieses hochwertige Sammlerstück zeigt das Fahrzeug von Max Verstappen oder Sergio Pérez im Maßstab 1:18 und ist ein Muss für jeden Fan von Oracle Red Bull Racing.</p>
+                    <p>Merkmale:</p>
+                    <ul>
+                        <li>Offizielles Red Bull Racing Lizenzprodukt</li>
+                        <li>Modell des RB19 aus der Saison 2023</li>
+                        <li>Maßstab: 1:18</li>
+                        <li>Detailreiche Verarbeitung inkl. Team- und Sponsorenlogos</li>
+                        <li>Material: hochwertiger Druckguss</li>
+                        <li>Perfekt für Sammler und Fans</li>
+                    </ul>
+                </div>                
+              
+                <form class="order-form">
+                    <div class="form-group">
+                        <label for="anzahl">Anzahl</label>
+                        <div class="quantity-control">
+                            <button type="button" class="decrease">-</button>
+                            <input type="number" id="anzahl" name="anzahl" value="1" min="1" max="10">
+                            <button type="button" class="increase">+</button>
+                            <label>Lieferadresse</label>
+                            <input type="addess" required>
+                            <label>Email</label>
+                            <input type="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="zahlungsmethode">Zahlungsmethode</label>
+                        <select id="zahlungsmethode" name="zahlungsmethode" required>
+                            <option value="" disabled selected>Bitte wählen</option>
+                            <option value="visa">Kreditkarte (Visa)</option>
+                            <option value="mastercard">Kreditkarte (Mastercard)</option>
+                            <option value="twint">Twint</option>
+                            <option value="sofort">Sofortüberweisung</option>
+                            <option value="rechnung">Kauf auf Rechnung</option>
+                        </select>
+                    </div>
+                    <div class="order-actions">
+                        <button type="submit" class="cta-button">Kaufen</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <br>
+
+    <footer>
+        <div class="footer-content">  
+          <div class="footer-section">
+            <h3>Kategorien</h3>
+            <ul>
+              <li><a href="produkte.html?kat=caps">Caps & Hüte</a></li>
+              <li><a href="produkte.html?kat=shirts">T-Shirts & Polos</a></li>
+              <li><a href="produkte.html?kat=jacken">Jacken</a></li>
+              <li><a href="produkte.html?kat=modelle">Modellautos</a></li>
+              <li><a href="produkte.html?kat=accessoires">Accessoires</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-section">
+            <h3>Kundenservice</h3>
+            <ul>
+              <li><a href="kontakt.html">Über uns</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 F1 Speed Shop</p>
+        </div>
+    </footer>
+    <script src="produkte.js"></script>
+</body>
+</html>
